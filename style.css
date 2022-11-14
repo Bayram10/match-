@@ -1,0 +1,33 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    margin-right: 20px;
+}
+p{
+    color: white;
+    font-family: "Roboto";
+}
+body {
+    background-image: url('https://www.shutterstock.com/image-photo/old-brick-black-color-wall-600w-1605128917.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.left{
+    font-size: 30px;
+    margin-left: 5px;
+  }
+.bottom {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+}
+.bottom p{
+    font-size: 30px;
+}
